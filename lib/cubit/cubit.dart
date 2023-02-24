@@ -12,7 +12,6 @@ class AppCubit extends Cubit<AppStates>{
   Icon icon=Icon(Icons.light_mode);
 
   void changeAppMode({bool? fromShared}){
-    // lazem te7ded 2za kan 2nta betsd3i el function mn dosa walla men opening program
     if(fromShared!=null) // not equal to null y3ni we 2na bafta7 el app le 2wel mara
       // yeb2a 5od mn el data el 2na 3mtlha save 2bl ma 2a2fel
       isLight=fromShared;
